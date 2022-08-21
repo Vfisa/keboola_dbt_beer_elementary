@@ -1,0 +1,5 @@
+profiles.yml
+logs
+target
+dbt_packages
+.DS_Store
