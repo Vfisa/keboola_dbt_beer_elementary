@@ -2,6 +2,15 @@ version: 2
 
 models:
   - name: beers_with_breweries
+
+    ## Elementary tests
+    config:
+      elementary:
+        timestamp_column: updated_at
+    tests:
+        - elementary.table_anomalies
+        - elementary.all_columns_anomalies
+
     tags:
       - operations
     meta:
