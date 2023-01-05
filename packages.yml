@@ -1,9 +1,9 @@
 packages:
   - package: dbt-labs/dbt_utils
-    version: 0.9.1
+    version: 1.0.0
 
   - package: data-mie/dbt_profiler
-    version: 0.4.1
+    version: 0.6.0
 
   - package: elementary-data/elementary
-    version: 0.4.11
+    version: 0.6.10

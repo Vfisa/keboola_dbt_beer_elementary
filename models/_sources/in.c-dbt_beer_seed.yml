@@ -2,7 +2,7 @@ version: 2
 sources:
     -
         name: in.c-dbt_beer_seed
-        database: '{{ env_var("DBT_KBC_DEV_DBT_BEER_DATABASE") }}'
+        database: '{{ env_var("DBT_KBC_ELEMENTARY_SCHEMA") }}'
         schema: in.c-dbt_beer_seed
         loaded_at_field: '"_timestamp"'
         freshness: # default freshness
